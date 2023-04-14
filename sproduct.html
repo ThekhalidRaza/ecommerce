@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerce shopping webpage</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <section id="header" class="x_padding">
+            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+            <div id="navbar">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#" class="active">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- product details  -->
+
+        <section id="single-products" class="x_padding y_padding">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 pro-image">
+                        <img src="./img/products/f1.jpg" alt="" class="img-fluid my-3" id="bigImg">
+                        <div class="small-pro-img-container">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-around">
+                                        <img src="./img/products/f1.jpg" alt="" class="img-fluid w-25 mx-1 sm-pro-img sm-img">
+                                        <img src="./img/products/f2.jpg" alt="" class="img-fluid w-25 mx-1 sm-pro-img sm-img">
+                                        <img src="./img/products/f3.jpg" alt="" class="img-fluid w-25 mx-1 sm-pro-img sm-img">
+                                        <img src="./img/products/f4.jpg" alt="" class="img-fluid w-25 mx-1 sm-pro-img sm-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 pro-details y_padding d-flex flex-column">
+                        <div class="w-75">
+                            <h3>Men's Fashion T-shirt</h3>
+                            <h1 class="fw-bolder">$139.00</h1>
+                            <select name="" id="" class="w-25">
+                                <option selected>Select Size</option>
+                                <option value="">S</option>
+                                <option value="">M</option>
+                                <option value="">L</option>
+                                <option value="">XL</option>
+                            </select>
+                            <div class="incr-decr my-5">
+                                <button class="btn fw-bolder">+</button>
+                                <input type="num" value="1">
+                                <button class="btn fw-bolder">-</button>
+                                <button class="btn btn-success mx-4">Add to Cart</button>
+                            </div>
+                            <h3 class="my-3 fw-bold">Product Details</h3>
+                            <p class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                                voluptates enim
+                                nostrum aut
+                                nulla sapiente voluptatum architecto facere repellendus autem id et ipsa incidunt
+                                quibusdam,
+                                labore, necessitatibus commodi quasi? Aspernatur? Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Veritatis natus hic, quasi obcaecati dolorum minima doloremque vel
+                                soluta
+                                facere repellendus nam non provident recusandae impedit rem inventore voluptatem nemo
+                                sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- newsletter  -->
+
+        <section id="newsletter" class="x_padding y_padding align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 col-sm-12 ">
+                        <h2>Sign Up For Newsletters</h2>
+                        <h6>Get E-mail updates about our latest shop and <span>special offers</span></h6>
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                        <form action=" " class="d-flex">
+                            <input type="text" placeholder="Your email address" class="col-lg-4 form-control">
+                            <button class="col-lg-4 signup normal mx-2 text-secondary">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="x_padding y_padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./img/logo.png" alt="logo" class="img-fluid my-4">
+                    <h4 class="fw-bolder">Contact</h4>
+                    <h6 class="fw-bold">Address: <span class="text-secondary">A-16,near Logix park, Noida</span></h6>
+                    <h6 class="fw-bold">Phone: <span class="text-secondary">+91 6203344771</span></h6>
+                    <h6 class="fw-bold">Hours: <span class="text-secondary">10:00AM - 06:00PM</span></h6>
+                    <h4 class="fw-bold">Follow Us</h4>
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook-f mt-3"></i>
+                        <i class="fa-brands fa-instagram mx-2 mt-3"></i>
+                        <i class="fa-brands fa-twitter mx-2 mt-3"></i>
+                        <i class="fa-brands fa-linkedin-in mx-2 mt-3"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-flex flex-column justify-content-center">
+                    <h4 class="fw-bold">About</h4>
+                    <ul class="list-unstyled d-flex flex-column justify-content-center">
+                        <li>About Us</li>
+                        <li>Delivery Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Contact Us</li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-2 d-flex flex-column justify-content-center">
+                    <h4 class="fw-bold">My Account</h4>
+                    <ul class="list-unstyled d-flex flex-column justify-content-center">
+                        <li>Sign In</li>
+                        <li>View Cart</li>
+                        <li>My Wishlist</li>
+                        <li>Track My Order</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center">
+                    <h4 class="fw-bold lh-base">Install App</h4>
+                    <h6 class="fw-bold">From App Store or Google Play</h6>
+                    <div class="d-flex">
+                        <button class="btn">
+                            <img src="./img/pay/app.jpg" alt="" class="img-fluid">
+                        </button>
+                        <button class="btn">
+                            <img src="./img/pay/play.jpg" alt="" class="img-fluid">
+                        </button>
+                    </div>
+                    <h6 class="fw-bold lh-base">Secured Payment Gateways</h6>
+                    <img src="./img/pay/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="text-center fw-bold">2023@All rights are reserved || www.cara.com</p>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
